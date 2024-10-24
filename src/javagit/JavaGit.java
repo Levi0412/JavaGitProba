@@ -13,15 +13,10 @@ public class JavaGit {
        final int HIDEG_HATAR = 10;
        int fok = 7;
        boolean hidegVan = fok < HIDEG_HATAR;
-       String eredmeny = "";
-       if(hidegVan)
-       {
-          eredmeny = "viszek kabátot";
-       }else{
-           eredmeny = "nem viszek kabátot";
-           
+       String viszek = "viszek kabátot";
+       String nemViszek = "Nem viszek kabátot";
+       String eredmeny = hidegVan ? viszek: nemViszek;
            System.out.println(eredmeny);
        }
     }
     
-}
