@@ -13,10 +13,9 @@ public class JavaGit {
        final int HIDEG_HATAR = 10;
        int fok = 7;
        boolean hidegVan = fok < HIDEG_HATAR;
-       String viszek = "viszek kabátot";
-       String nemViszek = "Nem viszek kabátot";
-       String eredmeny = hidegVan ? viszek: nemViszek;
-           System.out.println(eredmeny);
+       String eredmeny = "Viszek kabátot";
+       eredmeny = hidegVan ? eredmeny : "nem" + eredmeny;
+       System.out.println(eredmeny);
        }
     }
     
